@@ -1,10 +1,11 @@
-.trailer{
+.trailer {
     padding: 42px 0 80px;
     position: relative;
     background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 45.64%, rgba(255, 255, 255, 0) 100.72%);
+
 }
 
-.trailer__video{
+.trailer__video {
     position: absolute;
     width: 60%;
     height: 100%;
@@ -14,28 +15,28 @@
     z-index: -1;
 }
 
-.trailer__wrap{
+.trailer__wrap {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.desc{
+.desc {
     max-width: 558px;
     width: 100%;
 }
 
-.desc__img{
+.desc__img {
     width: 80%;
     height: 100%;
     object-fit: cover;
 }
 
-.desc__p{
+.desc__p {
     font-family: var(--RR);
     font-size: 18px;
     font-weight: 400;
-    line-height: 27px;    
-    color: var(--black);  
+    line-height: 27px;
+    color: var(--black);
     margin: 51px 0 55px;
 }

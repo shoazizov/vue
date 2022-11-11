@@ -87,6 +87,12 @@
     color: var(--light);
 }
 
+.logo__img{
+    animation: rotatey infinite 3s linear;
+}
+
+
+
 @media screen and (max-width: 768px) {
     .nav__wrap {
         flex-direction: column;
